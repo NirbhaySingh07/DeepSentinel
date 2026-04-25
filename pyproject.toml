@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "deepsentinel"
+version = "1.0.0"
+description = "Multi-agent AI oversight RL environment — OpenEnv compatible"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "httpx",
+    "numpy",
+    "pydantic",
+    "openai",
+]
+
+[project.scripts]
+server = "server:app"

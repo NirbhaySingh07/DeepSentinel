@@ -1,0 +1,7 @@
+﻿__pycache__/
+*.pyc
+.venv/
+.env
+.hf_space_tmp/
+deepsentinel_model_small/
+artifacts/manual_phases/
