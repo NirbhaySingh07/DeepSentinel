@@ -1,3 +1,15 @@
+# 🛡️ DeepSentinel: Protecting LLMs with GRPO-Trained Overseers
+
+**Meta Hackathon Submission**
+DeepSentinel is a specialized overseer model designed to detect and intercept adversarial prompts in real-time. We fine-tuned the `Qwen/Qwen2.5-0.5B-Instruct` model using GRPO over 120 episodes.
+
+## 🔗 Official Submission Links
+* **Live Demo (Hugging Face Space):** https://huggingface.co/spaces/Nirbhayhero07/deepsentinel-demo
+* **Project Demo Video:** https://youtu.be/UYE_m15B7Jw
+* **Trained Model Repository:** https://huggingface.co/Nirbhayhero07/deepsentinel-overseer-small
+
+---
+
 # DeepSentinel 🛡️🤖
 
 **Multi-Agent AI Oversight RL Environment — OpenEnv Compatible**
